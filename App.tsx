@@ -1,9 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { StyleSheet, Text, View, Dimensions} from 'react-native';
 import { WebView } from 'react-native-webview';
 
 const MyWebComponent = () => {
-  return <WebView source={{ uri: 'https://app.furyofthefur.com' }} style={styles.webview} />
+  return <WebView source={{ uri: 'https://fascinating-conkies-843a3e.netlify.app/' }} style={styles.webview} />
 }
 
 const deviceHeight = Dimensions.get('window').height;
