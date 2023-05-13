@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Dimensions} from 'react-native';
 import { WebView } from 'react-native-webview';
 
 const MyWebComponent = () => {
-  return <WebView source={{ uri: 'https://fascinating-conkies-843a3e.netlify.app/' }} style={styles.webview} />
+  return <WebView source={{ uri: 'https://poetic-bonbon-daf9f3.netlify.app/' }} style={styles.webview} />
 }
 
 const deviceHeight = Dimensions.get('window').height;
