@@ -23,12 +23,12 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'transparent',
+    backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'center',
     width: "100%", height: "100%"
   }, webview: {
-    marginTop: 35,
+    marginTop: 45,
     width: deviceWidth,
     height: deviceHeight
 
